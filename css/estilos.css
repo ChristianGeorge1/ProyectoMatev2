@@ -1,0 +1,16 @@
+.menu{
+    background-color: #182D69;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.h1{
+    margin-left: 1.5em;
+}
+.img{
+    height: 50px;
+    margin-left: -14em;
+    margin-top: -0.2em;
+    padding: 0;
+}

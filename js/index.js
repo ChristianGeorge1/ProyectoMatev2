@@ -26,6 +26,7 @@ function opcionesInterpolacion() {
 
     } else {
         console.log('Escoger una opción');
+        padre.reset();
                 
     }
 
@@ -74,7 +75,9 @@ function opcionesInterpolacion() {
             indicacionesDeX.innerHTML = "Colocar el valor de X<sub>" + (i - 1) + "</sub>: ";
             indicacionesDeF.innerHTML = "Colocar el valor de F(x<sub>" + (i - 1) + "</sub>): ";
             valorDeX.id = "x" + (i - 1);
+            valorDeX.type = "number"
             valorDeF.id = "fx" + (i - 1);
+            valorDeF.type = "number"
             contenedorDeX.id = "contenedor_x" + (i - 1);
             contenedorDeF.id = "contenedor_fx" + (i - 1);
             contenedorDeX.appendChild(indicacionesDeX);
@@ -145,8 +148,9 @@ function calcularInterpolacionErrores() {
             "<br> El error verdadero es de: " + errorVerdadero.toFixed(6) +
             "<br> Y el error porcentual es de: " + errorPorcentual.toFixed(2) + "%";
 
-    } else {
+    } else if (veces == 0){
         alert('Favor de introducir todos los datos');
+        pResultado.innerHTML = "Por favor introduce todos los valores restantes"
 
     }
 

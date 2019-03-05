@@ -45,6 +45,9 @@ function opcionesInterpolacion() {
             var indicacionesDeF = document.createElement("label");
             indicacionesDeX.innerHTML = "Colocar el valor de X: ";
             indicacionesDeF.innerHTML = "Colocar que desea estimar f(x): ";
+            
+            
+
             valorDeX.id = "x";
             valorDeX.type = "number";
             valorDeF.id = "fx";

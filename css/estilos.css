@@ -14,3 +14,33 @@
     margin-top: -0.2em;
     padding: 0;
 }
+.trans{
+    opacity: 0.5;
+}
+.todo{
+    background-color:black;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 500px;
+    width: 700px;
+}
+.todo.trans{
+    opacity: 0.5;
+}
+.texto{
+    background-color: transparent;
+    color: white;
+}
+.botones{
+    margin-top: 1em;
+}
+footer{
+    margin-top:40px;
+    width:100%;
+    height:50px;
+    text-align: center;
+    color: white;
+    background-color:#182D69;
+}
+
